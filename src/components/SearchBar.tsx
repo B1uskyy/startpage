@@ -34,8 +34,7 @@ const SearchBar = () => {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         autoFocus
-        placeholder="Type a URL or search..."
-        className="bg-[#1e1e1e] text-[#f8f8f2] border border-[#333] rounded px-2 py-1 font-mono outline-none focus:border-[#555] focus:ring-0 focus:shadow-[0_0_2px_#999]"
+        className=" text-[#f8f8f2] rounded px-2 py-1 font-mono outline-none focus:border-[#555] focus:ring-0 "
       />
     </form>
   );
