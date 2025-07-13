@@ -1,4 +1,4 @@
-
+import SearchBar from "./SearchBar.tsx";
 import { useEffect, useState } from "react";
 import List from "./List.tsx"; // You may need a React version of List if it uses Astro-only features
 
@@ -24,6 +24,7 @@ export default function ToggleComponent() {
 
 
       <div className="flex items-center justify-center gap-[8vw] h-[40vh] bg-[#292929] rounded-md w-[50vw] shadow-lg">
+        <SearchBar />
         {workPage &&
           <>
             <div>
